@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see a bug that was introduced? 
+
+Viewing a diff between two versions helps you see which lines are removed and added between two files. 
+
+
+====================================================================
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Allows you to oversee all changes to the file
+
+====================================================================
+As a programmer, when would you want to have a version of your code saved? 
+- At regular intervals (e.g. every hour) -- save more versions than you really need
+- Whenever a large enough change is made (e.g. 50 lines) -- might get versions that aren't very usable
+- Whenever there is a long pause in editing -- might get some not some meaningful versions 
+- When you choose to save a version -- user error, but user flexibility
+
+One Commit Per Logical Change
+What is a README?
+Many projects contain a file named "README" that gives a general description of what the project does and how to use it. It's often a good idea to read this file before doing anything with the project, so the file is given this name to make users more likely to read it. 
+
+===================================================================
+What do you think are the pros and cons of manually choosing when to create a commit, like you do it in Git vs having versions automatically saved, like Google Docs does?
+
+PROS: 
+- logical commits
+- not as many commits
+
+CONS: 
+- forget to make commits sometimes
+
+
+
+$ git log --stat   
+stats about which files have changed
++ insertions
+- deletions
+
+======================================================
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some files are dependent upon other files, so it's important to allow saving multiple files in one commit. 
+
+========================================================
+How can you use the commands git log and git diff to view the history of files? 
+
+git log: shows history of all your commits
+git diff: shows the difference btwn different commits; look into which specific lines are inserted/deleted
+
+git checkout: restore to a previous version
+HEAD: git currently working on 
