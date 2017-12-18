@@ -11,3 +11,6 @@ Branches: Only done on local repository
 === LOCAL COPIES OF REMOTE BRANCHES ===
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Get any recent updates made from the remmote
+
+=== USING SEPARATE BRANCH === 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
